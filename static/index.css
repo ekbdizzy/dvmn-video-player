@@ -1,6 +1,13 @@
 #player {
     width: 800px;
+}
+
+.js-video-container {
     height: 600px;
+}
+
+.buttons-container {
+    background-color: black;
 }
 
 .button {
@@ -13,6 +20,3 @@
     cursor: pointer;
 }
 
-.buttons-block {
-    background-color: black;
-}
