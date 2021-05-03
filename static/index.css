@@ -1,0 +1,18 @@
+#player {
+    width: 800px;
+    height: 600px;
+}
+
+.button {
+    border-style: none;
+    color: white;
+    background-color: transparent;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttons-block {
+    background-color: black;
+}
