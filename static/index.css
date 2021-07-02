@@ -1,4 +1,4 @@
-#player {
+.player {
     width: 800px;
     height: 600px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
@@ -6,22 +6,22 @@
     flex-direction: column;
 }
 
-.js-video-container {
+.screen {
     flex-grow: 1;
 }
 
-.buttons-container {
+.bottom-controls {
     background-color: black;
     display: flex;
     flex-direction: row;
     padding: 0.5em;
 }
 
-.buttons-container div {
+.viewing-panel {
     flex-grow: 1;
 }
 
-.button {
+.player-button {
     padding: 0 0.5em;
     font-size: x-large;
     border-style: none;
@@ -29,7 +29,11 @@
     background-color: transparent;
 }
 
-.button:hover {
+.player-left-buttons .player-button {
+    width: 1.4em;
+}
+
+.player-button:hover {
     cursor: pointer;
 }
 
