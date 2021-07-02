@@ -6,7 +6,7 @@ Demo is [here](https://ekbdizzy.github.io/dvmn-video-player/).
 ***
 
 ## Development with live reload
-For life reload you should install libs from `requirements.txt` and run `guardfile.py`: 
+For live reload you should install libs from `requirements.txt` and run `guardfile.py`: 
 ~~~
 pip install -r requirements.txt
 python guardfile.py
