@@ -14,7 +14,7 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    padding: 0.5em;
+    height: 2.6em;
 }
 
 .viewing-panel {
@@ -22,11 +22,15 @@
 }
 
 .player-button {
-    padding: 0 0.5em;
     font-size: x-large;
     border-style: none;
     color: white;
     background-color: transparent;
+    padding-top: 0.2em;
+}
+
+.player-left-buttons {
+
 }
 
 .player-left-buttons .player-button {
@@ -37,5 +41,15 @@
     cursor: pointer;
 }
 
+.fa-play, .fa-pause, .fa-volume-up, .fa-volume-off, .fa-expand {
+    font-size: 0.8em;
+}
 
+.fa-expand {
+    padding-top: 1px;
+    padding-right: 0.2em;
+}
 
+.fa-volume-off {
+    margin-right: 0.5em;
+}
