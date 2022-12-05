@@ -11,26 +11,26 @@
 }
 
 .bottom-controls {
+    font-size: 20px;
     background-color: black;
     display: flex;
+    align-items: center;
     flex-direction: row;
     height: 2.6em;
+    padding: 0 0.5em;
 }
 
 .viewing-panel {
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
-    margin: 0.6em 0.3em;
+    margin: 0 0.5em;
 }
 
 
 .player-button {
-    font-size: x-large;
     border-style: none;
     color: white;
     background-color: transparent;
-    padding-top: 0.2em;
 }
 
 .player-left-buttons {
@@ -46,22 +46,16 @@
     cursor: pointer;
 }
 
-.fa-play, .fa-pause, .fa-volume-up, .fa-volume-off, .fa-expand {
-    font-size: 0.8em;
+.fa {
+    display: flex;
 }
 
-.fa-expand {
-    padding-top: 1px;
-    padding-right: 0.2em;
-}
-
-.fa-volume-off {
-    margin-right: 0.5em;
-}
 
 .progress-time {
-    color: white;
+    align-self: flex-end;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .progress-bar {
@@ -70,6 +64,7 @@
     height: 1em;
     background: none;
     padding: 0 0.6em;
+    align-self: center;
 }
 
 .progress-bar:hover .progress-pointer {
@@ -79,8 +74,8 @@
 .progress-bar-slider {
     background-color: var(--red);
     height: 0.3em;
-    margin-top: 0.5em;
     border-radius: 0.3em;
+    align-self: center;
 }
 
 .progress-pointer {
@@ -90,7 +85,7 @@
     background-color: var(--red);
     border: white solid 3px;
     border-radius: 50%;
-    margin-top: 0.2em;
+    align-self: center;
     margin-left: -0.2em;
 
     transition: all 300ms ease-in-out;
